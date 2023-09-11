@@ -1,0 +1,74 @@
+html {
+    font-size: 62,5%;
+}
+body {
+    background:url(/src/images/bg-desktop.svg) no-repeat;
+    background-color: var(--primary-color);
+    height: 100vh;
+    max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: auto;
+    
+}
+
+.header {
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.conteudo-texto {
+    color: #fff;
+    padding: 40px;
+    max-height: 400px;
+    
+    
+}
+.conteudo-texto h1 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.conteudo-texto p {
+    margin-top: 30px;
+}
+
+.btn-register {
+    margin-top: 20px;
+    padding: 15px 60px;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    box-shadow: 2px 2px 5px rgb(33, 32, 32);
+    transition: 0.3s;
+}
+.btn-register:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+    
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    font-size: 24px;
+    margin-top: 200px;
+    
+}
+.redes-sociais a {
+    color: #fff;
+    transition: 0.3s;
+}
+.redes-sociais a:hover{
+    color: var(--secondary-color);
+
+}
+
